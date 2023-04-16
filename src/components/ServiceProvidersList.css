@@ -1,0 +1,45 @@
+#ownersListDisplay {
+    grid-row-start: 3;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 10;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(20, 5%);
+    overflow: scroll;
+    /* text-align: left; */
+    /* display: flex; */
+    /* flex-direction: center; */
+    /* justify-content: space-between, center;  */
+}
+
+#filterButton {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 18;
+    grid-column-end: 21;
+}
+#listedOwners {
+    grid-row-start: 3;
+    grid-row-end: 21;
+    grid-column-start: 1;
+    grid-column-end: 21; 
+    font-size: 40px;
+    text-align: left;
+}
+
+.dropdownContainer {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 17;
+    /* border-color: #faa8c9;
+    padding:10px;
+    border-radius:15px;
+    box-shadow:0 0 15px 4px rgba(236, 164, 201, 0.06); */
+    
+}
+.dropdown-input {
+    
+}

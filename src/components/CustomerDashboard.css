@@ -1,0 +1,41 @@
+
+.custDash {
+    grid-row-start: 3;
+    grid-row-end: 10;
+    grid-column-start: 2;
+    grid-column-end: 10; 
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    overflow: scroll;
+}
+
+#dashHeading {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 7; 
+    font-size: 50px;
+    color: rgb(152, 0, 0);
+    text-align: left;
+
+}
+
+/*why wont favDisplay text get bigger???*/
+#favDisplay {
+    grid-row-start: 5;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 9; 
+    font-size: 40px;
+    text-align: left;
+    
+}
+
+a:link { 
+    text-decoration: none;
+    color: rgb(75, 75, 232) }
+a:visited { color: rgb(183, 106, 142) }
+a:hover { color: rgb(152, 7, 7)}
+a:active { color: rgb(40, 62, 99); }

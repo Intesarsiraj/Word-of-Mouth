@@ -1,0 +1,70 @@
+
+/* .home-page{
+    display: grid;
+} */
+h2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 5; 
+}
+
+p{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#owner-login {
+    grid-row-start: 2;
+    grid-row-end: 6;
+    grid-column-start: 8;
+    grid-column-end: 10;
+}
+
+#customer-login {
+    grid-row-start: 6;
+    grid-row-end: 10;
+    grid-column-start: 8;
+    grid-column-end: 10;
+}
+
+h3{
+    font-size: large;
+    color: rgb(241, 90, 90);
+}
+
+input{
+    border-color: #faa8c9;
+    padding:10px;
+    border-radius:15px;
+    box-shadow:0 0 15px 4px rgba(236, 164, 201, 0.06);
+}
+
+button {
+    border-color: #faa8c9;
+    color: rgb(241, 90, 90);
+    background-color:rgb(237, 229, 196);
+    border-radius: 10px;
+}
+
+.contactTile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-width: 40vw;
+    min-height: 6vh; */
+    background-color: #f6c7da;
+    border-radius: 10px;
+    box-shadow:0 0 15px 3px rgba(0,0,0,0.5);
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    font-size: 2.8rem;
+    font-family: Helvetica, sans-serif;
+    width: 300px; 
+    height: 230px;
+  }

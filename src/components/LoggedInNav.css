@@ -1,0 +1,32 @@
+.sharedCustLayout{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    overflow: scroll;
+}
+
+.sharedNav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 9; 
+    
+}
+  
+  .nav-container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 9;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between, center;
+    flex-wrap: nowrap;
+  }
+  
+  
+  
